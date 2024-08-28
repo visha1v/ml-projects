@@ -51,6 +51,3 @@ class_report = classification_report(y_test_labels, y_pred_labels)
 print("Classification Report:\n", class_report)
 
 model.save('titanic_keras_model.h5')
-
-
-
