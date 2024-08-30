@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 from tensorflow.keras.callbacks import EarlyStopping
 
-dataset_dir = 'path_to_dataset'
+dataset_dir = 'xx/xx/xx'
 train_dir = os.path.join(dataset_dir, 'train')
 labels_csv = os.path.join(dataset_dir, 'labels.csv')
 
