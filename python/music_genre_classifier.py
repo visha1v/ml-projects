@@ -9,7 +9,7 @@ from keras.layers import Dense, LSTM, Dropout
 from keras.utils import np_utils
 import os
 
-dataset_path = 'path_to_your_gtzan_dataset'
+dataset_path = 'xx/xx/xx'
 
 def extract_features(file_path):
     try:
